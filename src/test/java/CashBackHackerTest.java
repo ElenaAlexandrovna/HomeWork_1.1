@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 import ru.netology.CashbackHackService;
+
 public class CashBackHackerTest {
     @Test
     public void shouldBuyHowMuchMoreTest() {
@@ -10,6 +11,7 @@ public class CashBackHackerTest {
         int expected = 200;
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void shouldBuyHowMuchMoreTest1() {
         CashbackHackService service = new CashbackHackService();
